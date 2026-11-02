@@ -1,0 +1,51 @@
+TICKET: INC-2002
+ASSUNTO: Indisponibilidade do circuito CIR-1001
+STATUS: closed
+CLIENTE: Acme Telecom
+CIRCUITO: CIR-1001
+SERVIÇO: DIA
+PROVEDOR: Lumen
+
+HISTÓRICO DE COMENTÁRIOS:
+
+ID DO COMENTÁRIO: 1
+[2026-11-01T09:10:00Z]
+Autor: Cliente
+Origem: customer
+Mensagem: Estamos sem conectividade no circuito CIR-1001.
+
+ID DO COMENTÁRIO: 2
+[2026-11-01T09:20:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: CPE sem resposta ao ping. Interface WAN operacional.
+
+ID DO COMENTÁRIO: 3
+[2026-11-01T09:35:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: Traceroute interrompido no segmento da operadora.
+
+ID DO COMENTÁRIO: 4
+[2026-11-01T09:50:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: Aberto chamado Lumen VND-9002.
+
+ID DO COMENTÁRIO: 5
+[2026-11-01T10:30:00Z]
+Autor: Suporte Lumen
+Origem: provider
+Mensagem: Identificado rompimento de fibra óptica em trecho externo da rede.
+
+ID DO COMENTÁRIO: 6
+[2026-11-01T12:15:00Z]
+Autor: Suporte Lumen
+Origem: provider
+Mensagem: Reparo da fibra concluído. Circuito restabelecido.
+
+ID DO COMENTÁRIO: 7
+[2026-11-01T12:30:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: Ping normalizado. Circuito estável. RFO registrado e ticket encerrado.

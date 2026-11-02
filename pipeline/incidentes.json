@@ -1,0 +1,8 @@
+[
+    {
+        "ticket_id": "INC-2001",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "status": "processed"
+    }
+]

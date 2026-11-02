@@ -1,0 +1,126 @@
+[
+    {
+        "content": "Causa raiz: falha de hardware em placa de transmissão no equipamento de agregação da operadora Lumen; substituição do componente restabeleceu o serviço.",
+        "type": "root_cause",
+        "classification": "fact",
+        "provider": "Lumen",
+        "circuit_id": "CIR-1001",
+        "source_tickets": [
+            "INC-1900",
+            "INC-2001"
+        ],
+        "occurrences": 2
+    },
+    {
+        "content": "Lentidão e perda de pacotes na conexão relatada pelo cliente.",
+        "type": "symptom",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Cliente",
+        "source_comment_id": "2026-10-30T14:32:00Z",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_tickets": [
+            "INC-2001"
+        ],
+        "occurrences": 1
+    },
+    {
+        "content": "Ping para o CPE apresenta 15% de packet loss; interface WAN sem erros físicos.",
+        "type": "technical_evidence",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Analista NOC",
+        "source_comment_id": "2026-10-30T14:48:00Z",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_tickets": [
+            "INC-2001"
+        ],
+        "occurrences": 1
+    },
+    {
+        "content": "Traceroute identificou perda no segmento da operadora.",
+        "type": "technical_evidence",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Analista NOC",
+        "source_comment_id": "2026-10-30T15:05:00Z",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_tickets": [
+            "INC-2001"
+        ],
+        "occurrences": 1
+    },
+    {
+        "content": "Aberto chamado com a Lumen: VND-8891.",
+        "type": "action",
+        "classification": "fact",
+        "confidence": "medium",
+        "source": "Analista NOC",
+        "source_comment_id": "2026-10-30T15:20:00Z",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_tickets": [
+            "INC-2001"
+        ],
+        "occurrences": 1
+    },
+    {
+        "content": "Identificada falha em placa de transmissão no equipamento de agregação; equipe técnica atuando na substituição.",
+        "type": "technical_evidence",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Suporte Lumen",
+        "source_comment_id": "2026-10-30T16:10:00Z",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_tickets": [
+            "INC-2001"
+        ],
+        "occurrences": 1
+    },
+    {
+        "content": "Substituição da placa concluída; serviço normalizado.",
+        "type": "action",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Suporte Lumen",
+        "source_comment_id": "2026-10-30T17:25:00Z",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_tickets": [
+            "INC-2001"
+        ],
+        "occurrences": 1
+    },
+    {
+        "content": "Testes de ping realizados sem perda de pacotes; latência normalizada.",
+        "type": "resolution",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Analista NOC",
+        "source_comment_id": "2026-10-30T17:40:00Z",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_tickets": [
+            "INC-2001"
+        ],
+        "occurrences": 1
+    },
+    {
+        "content": "Incidentes de perda de pacotes podem ser causados por falhas de hardware em equipamentos de agregação da operadora; monitorar o desempenho dos segmentos externos pode acelerar a identificação e resolução.",
+        "type": "operational_learning",
+        "classification": "inference",
+        "confidence": "medium",
+        "source": "Analista NOC",
+        "source_comment_id": "2026-10-30T17:50:00Z",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_tickets": [
+            "INC-2001"
+        ],
+        "occurrences": 1
+    }
+]

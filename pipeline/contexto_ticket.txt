@@ -1,0 +1,61 @@
+
+TICKET: INC-2001
+ASSUNTO: Perda de pacotes no circuito CIR-1001
+STATUS: closed
+
+CLIENTE: Acme Telecom
+CIRCUITO: CIR-1001
+SERVICO: DIA
+PROVEDOR: Lumen
+
+HISTORICO DE COMENTARIOS:
+
+[2026-10-30T14:32:00Z]
+Autor: Cliente
+Origem: customer
+Mensagem: Estamos enfrentando lentidão e perda de pacotes na conexão. Favor verificar.
+
+[2026-10-30T14:40:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: Iniciando análise. Vamos verificar conectividade e interfaces.
+
+[2026-10-30T14:48:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: Ping para o CPE apresenta 15% de packet loss. Interface WAN sem erros físicos.
+
+[2026-10-30T15:05:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: Executado traceroute. Perda identificada no segmento da operadora.
+
+[2026-10-30T15:20:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: Aberto chamado com a Lumen: VND-8891.
+
+[2026-10-30T16:10:00Z]
+Autor: Suporte Lumen
+Origem: provider
+Mensagem: Identificamos falha em uma placa de transmissão no equipamento de agregação. Equipe técnica atuando na substituição.
+
+[2026-10-30T17:25:00Z]
+Autor: Suporte Lumen
+Origem: provider
+Mensagem: Substituição da placa concluída. Serviço normalizado.
+
+[2026-10-30T17:40:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: Testes de ping realizados. Sem perda de pacotes. Latência normalizada.
+
+[2026-10-30T17:50:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: RFO: Causa raiz: falha de hardware em placa de transmissão no equipamento de agregação da operadora Lumen. Substituição do componente restabeleceu o serviço.
+
+[2026-10-30T18:00:00Z]
+Autor: Analista NOC
+Origem: noc
+Mensagem: Cliente informado e ticket encerrado.

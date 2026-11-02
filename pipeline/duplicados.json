@@ -1,0 +1,13 @@
+[
+    {
+        "content": "Causa raiz: falha de hardware em placa de transmissão no equipamento de agregação da operadora Lumen; substituição do componente restabeleceu o serviço.",
+        "type": "root_cause",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Analista NOC",
+        "source_comment_id": "2026-10-30T17:50:00Z",
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2001"
+    }
+]

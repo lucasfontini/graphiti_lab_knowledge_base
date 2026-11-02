@@ -1,0 +1,69 @@
+
+{
+    "ticket_id": "INC-2002",
+    "subject": "Indisponibilidade do circuito CIR-1001",
+    "status": "closed",
+    "customer": {
+        "name": "Acme Telecom",
+        "customer_id": "CUS-1001"
+    },
+    "service": {
+        "circuit_id": "CIR-1001",
+        "type": "DIA",
+        "bandwidth": "500 Mbps"
+    },
+    "provider": {
+        "name": "Lumen"
+    },
+    "comments": [
+        {
+            "id": 1,
+            "timestamp": "2026-11-01T09:10:00Z",
+            "author": "Cliente",
+            "source": "customer",
+            "message": "Estamos sem conectividade no circuito CIR-1001."
+        },
+        {
+            "id": 2,
+            "timestamp": "2026-11-01T09:20:00Z",
+            "author": "Analista NOC",
+            "source": "noc",
+            "message": "CPE sem resposta ao ping. Interface WAN operacional."
+        },
+        {
+            "id": 3,
+            "timestamp": "2026-11-01T09:35:00Z",
+            "author": "Analista NOC",
+            "source": "noc",
+            "message": "Traceroute interrompido no segmento da operadora."
+        },
+        {
+            "id": 4,
+            "timestamp": "2026-11-01T09:50:00Z",
+            "author": "Analista NOC",
+            "source": "noc",
+            "message": "Aberto chamado Lumen VND-9002."
+        },
+        {
+            "id": 5,
+            "timestamp": "2026-11-01T10:30:00Z",
+            "author": "Suporte Lumen",
+            "source": "provider",
+            "message": "Identificado rompimento de fibra óptica em trecho externo da rede."
+        },
+        {
+            "id": 6,
+            "timestamp": "2026-11-01T12:15:00Z",
+            "author": "Suporte Lumen",
+            "source": "provider",
+            "message": "Reparo da fibra concluído. Circuito restabelecido."
+        },
+        {
+            "id": 7,
+            "timestamp": "2026-11-01T12:30:00Z",
+            "author": "Analista NOC",
+            "source": "noc",
+            "message": "Ping normalizado. Circuito estável. RFO registrado e ticket encerrado."
+        }
+    ]
+}

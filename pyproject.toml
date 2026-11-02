@@ -1,0 +1,11 @@
+[project]
+name = "graphiti-lab"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.34.0",
+    "graphiti-core[google-genai,groq]>=0.31.2",
+    "httpx>=0.28.1",
+    "openai>=3.42.0",
+    "python-dotenv>=1.2.4",
+]

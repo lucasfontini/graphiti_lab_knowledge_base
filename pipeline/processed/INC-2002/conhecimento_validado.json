@@ -1,0 +1,101 @@
+[
+    {
+        "content": "Estamos sem conectividade no circuito CIR-1001.",
+        "type": "symptom",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Cliente",
+        "source_comment_id": 1,
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2002"
+    },
+    {
+        "content": "CPE sem resposta ao ping. Interface WAN operacional.",
+        "type": "technical_evidence",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Analista NOC",
+        "source_comment_id": 2,
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2002"
+    },
+    {
+        "content": "Traceroute interrompido no segmento da operadora.",
+        "type": "technical_evidence",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Analista NOC",
+        "source_comment_id": 3,
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2002"
+    },
+    {
+        "content": "Aberto chamado Lumen VND-9002.",
+        "type": "action",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Analista NOC",
+        "source_comment_id": 4,
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2002"
+    },
+    {
+        "content": "Identificado rompimento de fibra óptica em trecho externo da rede.",
+        "type": "root_cause",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Suporte Lumen",
+        "source_comment_id": 5,
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2002"
+    },
+    {
+        "content": "Reparo da fibra concluído. Circuito restabelecido.",
+        "type": "action",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Suporte Lumen",
+        "source_comment_id": 6,
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2002"
+    },
+    {
+        "content": "Ping normalizado. Circuito estável. RFO registrado e ticket encerrado.",
+        "type": "resolution",
+        "classification": "fact",
+        "confidence": "high",
+        "source": "Analista NOC",
+        "source_comment_id": 7,
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2002"
+    },
+    {
+        "content": "O rompimento de fibra óptica externa pode causar perda total de conectividade mesmo quando a interface WAN está operacional.",
+        "type": "operational_learning",
+        "classification": "inference",
+        "confidence": "medium",
+        "source": "Analista NOC",
+        "source_comment_id": null,
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2002"
+    },
+    {
+        "content": "Uso combinado de ping e traceroute permite determinar rapidamente se a falha está no CPE ou na rede do provedor.",
+        "type": "operational_learning",
+        "classification": "inference",
+        "confidence": "medium",
+        "source": "Analista NOC",
+        "source_comment_id": null,
+        "circuit_id": "CIR-1001",
+        "provider": "Lumen",
+        "source_ticket": "INC-2002"
+    }
+]
